@@ -1,3 +1,7 @@
+:root{
+    --cor-fundo: #ff00ff;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +13,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: var(--cor-fundo);
+    transition: 1s;
 }
 
 #cor {
